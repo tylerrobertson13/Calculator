@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+#heading {
+    height: 200px;
+}
+#calculatorContainer {
+   padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkblue;
+    
+    
+}
+
+#buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 4px;
+}
+
+button {
+    flex: 1 0 22%;
+    box-sizing: border-box;
+    padding: 0px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background-color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid gold;
+    color: darkblue;
+   
+}
+#topRow {
+    display: flex;
+    padding-bottom: 10px;
+    width: 300px;
+    gap: 4px;
+    align-items: center;
+    
+}
+#displayScreen {
+    height: 75px;
+    width: 221px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#bottomDisplay {
+    align-self: flex-end;
+    padding-right: 4px;
+    font-size: 35px;
+}
+#topDisplay {
+    padding-left: 4px;
+    font-size: 22px;
+}
+
+#clear {
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1/1;
+}
+
+.number:hover {
+    background-color: gold;
+}
+.operator:hover {
+    background-color: orangered;
+
+}
+#decimal:hover {
+    background-color: lightsalmon;
+}
+#equals:hover {
+    background-color: lightgreen;
+}
+
+#clear:hover {
+    background-color: lightblue;
+}
